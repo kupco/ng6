@@ -1,0 +1,170 @@
+<div class="hero"></div>
+<header>
+  <input id="toggle" type="checkbox">
+  <label
+    class="toggle-container"
+    for="toggle">
+    <span class="button button-toggle"></span>
+  </label>
+  <nav class="nav">
+    <a class="nav-item" [ngx-scroll-to]="'destination-2'">WORK</a>
+    <a class="nav-item" [ngx-scroll-to]="'destination-3'">ABOUT US</a>
+    <a class="nav-item" [ngx-scroll-to]="'destination-4'">CONTACT US</a>
+  </nav>
+  <div class="dummy-content"></div>
+</header>
+<!--<header class="et-header">-->
+  <!--<div class="et-header__left">-->
+    <!--<a href="" class="et-header__logo">Ettrics</a>-->
+  <!--</div>-->
+<!--</header>-->
+<main>
+  <div class="section-hero">
+    <div>
+      <button type="button" class="scroll-down" id="scroll-down" [ngx-scroll-to]="'destination-1'"></button>
+    </div>
+    <div [@heroAnimation]="bindingVar" class="hero-content">
+      <h1>WE ARE <span class="monro"> "MONRO"</span> </h1>
+      <h3><span class="ampersand">DESIGN</span> is our passion <span class="ampersand">CODING</span> our mission</h3>
+      <button class="learn-more">
+        <div class="circle">
+          <span class="icon arrow"></span>
+        </div>
+        <p class="button-text" [ngx-scroll-to]="'destination-1'">EXPLORE MORE</p>
+      </button>
+    </div>
+  </div>
+<!--SECTION 1 END-->
+  <div class="section" id="destination-1">
+<!--OUR ROLE-->
+    <div class="row">
+      <div class="col-sx-8
+                  col-sm-7
+                  col-md-offset-1 col-md-3
+                  col-lg-offset-1 col-lg-3">
+        <div class="box">
+          <h2>OUR ROLE</h2>
+          <h3>asdlkvnslvnal asdkl vlksd nklasd nlkvsdn asdkl asdknvl ksdn klsdnvkl nsdvlkns lknvdlks nldskvn</h3>
+        </div>
+      </div>
+<!--DESIGN-->
+       <div class="col-sx-4
+                    col-sm-5
+                    col-md-offset-2 col-md-2
+                    col-lg-offset-2 col-lg-2">
+         <div class="box">
+          <h3>Design</h3>
+          <p>Prototyping</p>
+          <p>UI/UX</p>
+          <p>Visual Design</p>
+         </div>
+      </div>
+<!--DEVELOPMENT-->
+      <div class="col-sx-4
+                  col-sm-5
+                  col-md-2
+                  col-lg-2">
+        <div class="box">
+          <h3>Development</h3>
+          <p>Front-end development</p>
+          <p>Back-end development</p>
+          <p>CMS development</p>
+          <p>Migration</p>
+        </div>
+      </div>
+<!--DEVELOPMENT-->
+      <div class="col-sx-4
+                col-sm-5
+                col-md-2
+                col-lg-2">
+      <div class="box">
+        <h3>Marketing</h3>
+        <p>SEO</p>
+      </div>
+      </div>
+    </div>
+<!--DUMMY TEXT-->
+    <div class="row center-xs">
+      <div class="col-xs-3">
+        <div class="box">
+          <span>LOGO</span>
+        </div>
+      </div>
+    </div>
+    <div class="row center-xs">
+      <div class="col-xs-6">
+        <div class="box">
+          <h4>" PASSION LEADS TO DESIGN, DESIGN LEADS TO PERFORMANCE, PERFORMANCE LEADS TO SUCCESS! "</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--PORTFOLIO-->
+  <div class="section">
+    <div class="row center-xs center-sm center-md center-lg" id="destination-2">
+      <div class="content col-xs-6 col-sm-5 col-md-3 col-lg-3">
+        <h1>OUR WORK</h1>
+      </div>
+    </div>
+    <div class="row around-xs">
+      <div class="sep photo-record">
+        <div class="col-xs-3">
+          <div class="image-hover img-shadow-1">
+            <div class="box">
+              <img src="http://www.plici.ro/images/4-1386110379.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sep photo-record">
+        <div class="col-xs-3">
+          <div class="image-hover img-shadow-1">
+            <div class="box">
+              <img src="http://www.plici.ro/images/4-1386110379.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sep">
+        <div class="col-xs-3">
+          <div class="image-hover img-shadow-1">
+            <div class="box">
+              <img src="http://www.plici.ro/images/4-1386110379.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+<!--END PORTFOLIO-->
+  </div>
+
+  <!--<div class="sep">-->
+    <!--<h2>Shadow 1</h2>-->
+    <!--<div class="image-hover img-shadow-1">-->
+      <!--<img src="http://www.plici.ro/images/4-1386110379.jpg">-->
+    <!--</div>-->
+  <!--</div>-->
+
+  <!--<canvas id="canvas" width="600" height="600"></canvas>-->
+
+  <div class="section">
+    <div class="row center-xs center-sm center-md center-lg" id="destination-3">
+      <div class="content col-xs-6 col-sm-5 col-md-3 col-lg-3">
+        <h1>WHAT WE DO</h1>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="row center-xs center-sm center-md center-lg" id="destination-4">
+      <div class="content col-xs-6 col-sm-5 col-md-3 col-lg-3">
+        <h1>WRITE US</h1>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  &copy; Webdeveloper
+</footer>
